@@ -1,0 +1,36 @@
+# Build
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+
+# Screenshots and dumps
+screenshots/
+ui.xml
+ui_err.xml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Build artifacts
+*.class
+
+# Reports
+allure-results/

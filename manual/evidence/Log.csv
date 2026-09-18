@@ -1,0 +1,62 @@
+IPProto,SrcIP,SrcPort,DstIp,DstPort,UID,App,PackageName,Proto,Status,Info,BytesSent,BytesRcvd,PktsSent,PktsRcvd,FirstSeen,LastSeen
+17,10.215.173.1,24774,10.215.173.2,53,10161,Сервисы Google Play,com.google.android.gms,DNS,Закрыто,mtalk.google.com,62,107,1,1,2026-09-18T22:27:48.520+03:00,2026-09-18T22:27:48.528+03:00
+6,10.215.173.1,40274,66.102.1.188,5228,10161,Сервисы Google Play,com.google.android.gms,TLS,Закрыто,mtalk.google.com,2802,7346,12,12,2026-09-18T22:27:48.586+03:00,2026-09-18T22:28:49.367+03:00
+6,10.215.173.1,57558,20.33.25.54,5222,10218,Xiaomi Service Framework,com.xiaomi.xmsf,TCP,Закрыто,,1041,511,8,8,2026-09-18T22:27:48.720+03:00,2026-09-18T22:28:49.367+03:00
+17,10.215.173.1,51540,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,api.eu.amplitude.com,66,162,1,1,2026-09-18T22:28:00.477+03:00,2026-09-18T22:28:00.488+03:00
+6,10.215.173.1,39454,52.29.93.141,443,10283,Nova Launcher,com.teslacoilsw.launcher,HTTPS,Закрыто,api.eu.amplitude.com,1788,4027,9,8,2026-09-18T22:28:00.491+03:00,2026-09-18T22:28:09.432+03:00
+17,10.215.173.1,25559,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,pagead2.googlesyndication.com,75,139,1,1,2026-09-18T22:28:01.671+03:00,2026-09-18T22:28:01.686+03:00
+17,10.215.173.1,62357,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,fonts.googleapis.com,66,82,1,1,2026-09-18T22:28:01.677+03:00,2026-09-18T22:28:01.688+03:00
+17,10.215.173.1,15022,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,lh3.googleusercontent.com,71,116,1,1,2026-09-18T22:28:01.682+03:00,2026-09-18T22:28:01.689+03:00
+17,10.215.173.1,25039,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,googleads.g.doubleclick.net,73,137,1,1,2026-09-18T22:28:01.684+03:00,2026-09-18T22:28:01.699+03:00
+17,10.215.173.1,54066,142.251.127.154,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,pagead2.googlesyndication.com,6266,5183,14,20,2026-09-18T22:28:01.692+03:00,2026-09-18T22:28:01.916+03:00
+6,10.215.173.1,48514,142.251.127.154,443,10283,Nova Launcher,com.teslacoilsw.launcher,HTTPS,Закрыто,pagead2.googlesyndication.com,2852,2794,12,8,2026-09-18T22:28:01.697+03:00,2026-09-18T22:28:09.432+03:00
+17,10.215.173.1,39694,142.251.14.95,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,fonts.googleapis.com,4241,5570,8,10,2026-09-18T22:28:01.713+03:00,2026-09-18T22:28:01.857+03:00
+17,10.215.173.1,44901,192.178.183.132,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,lh3.googleusercontent.com,2886,4130,6,7,2026-09-18T22:28:01.719+03:00,2026-09-18T22:28:01.857+03:00
+17,10.215.173.1,58564,142.251.14.156,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,googleads.g.doubleclick.net,3940,4043,4,7,2026-09-18T22:28:01.724+03:00,2026-09-18T22:28:01.805+03:00
+17,10.215.173.1,40641,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,pagead2.googleadservices.com,74,138,1,1,2026-09-18T22:28:01.732+03:00,2026-09-18T22:28:01.748+03:00
+17,10.215.173.1,28306,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,www.gstatic.com,61,77,1,1,2026-09-18T22:28:01.736+03:00,2026-09-18T22:28:01.748+03:00
+17,10.215.173.1,51807,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,www.googletagservices.com,71,135,1,1,2026-09-18T22:28:01.740+03:00,2026-09-18T22:28:01.753+03:00
+17,10.215.173.1,32972,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,tpc.googlesyndication.com,71,87,1,1,2026-09-18T22:28:01.743+03:00,2026-09-18T22:28:01.755+03:00
+17,10.215.173.1,20311,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,mediation.goog,60,124,1,1,2026-09-18T22:28:01.746+03:00,2026-09-18T22:28:01.766+03:00
+17,10.215.173.1,45761,192.178.183.154,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,pagead2.googleadservices.com,7130,4692,11,11,2026-09-18T22:28:01.758+03:00,2026-09-18T22:28:01.905+03:00
+17,10.215.173.1,49438,142.251.14.94,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,www.gstatic.com,2889,4117,6,7,2026-09-18T22:28:01.762+03:00,2026-09-18T22:28:01.885+03:00
+17,10.215.173.1,51731,192.178.183.132,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,tpc.googlesyndication.com,4169,5468,7,9,2026-09-18T22:28:01.768+03:00,2026-09-18T22:28:01.893+03:00
+6,10.215.173.1,53404,142.251.20.155,443,10283,Nova Launcher,com.teslacoilsw.launcher,HTTPS,Закрыто,mediation.goog,10755,3805,16,15,2026-09-18T22:28:01.771+03:00,2026-09-18T22:28:09.432+03:00
+17,10.215.173.1,49076,142.251.20.155,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,mediation.goog,5199,4536,8,10,2026-09-18T22:28:01.773+03:00,2026-09-18T22:28:01.933+03:00
+17,10.215.173.1,38469,142.251.14.156,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,www.googletagservices.com,2887,4130,6,7,2026-09-18T22:28:01.776+03:00,2026-09-18T22:28:01.901+03:00
+17,10.215.173.1,37676,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,s1.2mdn.net,57,89,1,1,2026-09-18T22:28:01.779+03:00,2026-09-18T22:28:01.788+03:00
+17,10.215.173.1,47836,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,s0.2mdn.net,57,89,1,1,2026-09-18T22:28:01.782+03:00,2026-09-18T22:28:01.790+03:00
+17,10.215.173.1,61741,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,static.doubleclick.net,68,100,1,1,2026-09-18T22:28:01.784+03:00,2026-09-18T22:28:01.791+03:00
+17,10.215.173.1,42086,142.250.154.148,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,s0.2mdn.net,2890,4106,6,7,2026-09-18T22:28:01.794+03:00,2026-09-18T22:28:01.908+03:00
+17,10.215.173.1,39301,142.251.20.149,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,static.doubleclick.net,4123,4182,7,8,2026-09-18T22:28:01.798+03:00,2026-09-18T22:28:01.919+03:00
+17,10.215.173.1,30360,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,redirector.gvt1.com,65,161,1,1,2026-09-18T22:28:01.801+03:00,2026-09-18T22:28:01.809+03:00
+17,10.215.173.1,12226,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,redirector.gvt1-cn.com,68,164,1,1,2026-09-18T22:28:01.802+03:00,2026-09-18T22:28:01.817+03:00
+17,10.215.173.1,37383,10.215.173.2,53,10283,Nova Launcher,com.teslacoilsw.launcher,DNS,Закрыто,pubads.g.doubleclick.net,70,134,1,1,2026-09-18T22:28:01.804+03:00,2026-09-18T22:28:01.820+03:00
+17,10.215.173.1,58760,142.251.110.113,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,redirector.gvt1.com,4168,5457,7,9,2026-09-18T22:28:01.815+03:00,2026-09-18T22:28:01.935+03:00
+17,10.215.173.1,45523,192.178.183.113,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,redirector.gvt1-cn.com,4063,4127,6,7,2026-09-18T22:28:01.823+03:00,2026-09-18T22:28:01.940+03:00
+17,10.215.173.1,39731,142.251.20.157,443,10283,Nova Launcher,com.teslacoilsw.launcher,QUIC,Закрыто,pubads.g.doubleclick.net,4060,4129,6,7,2026-09-18T22:28:01.828+03:00,2026-09-18T22:28:01.949+03:00
+17,10.215.173.1,27490,10.215.173.2,53,10161,Сервисы Google Play,com.google.android.gms,DNS,Закрыто,app-measurement.com,65,161,1,1,2026-09-18T22:28:02.284+03:00,2026-09-18T22:28:02.289+03:00
+17,10.215.173.1,42249,192.178.183.113,443,10161,Сервисы Google Play,com.google.android.gms,QUIC,Закрыто,app-measurement.com,8095,6493,16,19,2026-09-18T22:28:02.296+03:00,2026-09-18T22:28:02.736+03:00
+17,10.215.173.1,54607,192.178.183.113,443,10161,Сервисы Google Play,com.google.android.gms,QUIC,Закрыто,app-measurement.com,6426,6229,11,14,2026-09-18T22:28:02.460+03:00,2026-09-18T22:28:02.642+03:00
+17,10.215.173.1,45578,10.215.173.2,53,10390,my moldcell,md.moldcell.selfservice,DNS,Закрыто,evam-sdk-api.moldcell.md,70,86,1,1,2026-09-18T22:28:03.838+03:00,2026-09-18T22:28:03.850+03:00
+17,10.215.173.1,27654,10.215.173.2,53,10390,my moldcell,md.moldcell.selfservice,DNS,Закрыто,evam-sdk-lsnr.moldcell.md,71,87,1,1,2026-09-18T22:28:03.844+03:00,2026-09-18T22:28:03.852+03:00
+17,10.215.173.1,11487,10.215.173.2,53,10390,my moldcell,md.moldcell.selfservice,DNS,Закрыто,mymoldcell-api.moldcell.md,72,88,1,1,2026-09-18T22:28:03.847+03:00,2026-09-18T22:28:03.862+03:00
+6,10.215.173.1,42522,79.170.225.145,443,10390,my moldcell,md.moldcell.selfservice,HTTPS,Закрыто,evam-sdk-api.moldcell.md,3336,2965,13,12,2026-09-18T22:28:03.855+03:00,2026-09-18T22:28:15.754+03:00
+6,10.215.173.1,42526,79.170.225.145,443,10390,my moldcell,md.moldcell.selfservice,HTTPS,Активно,evam-sdk-lsnr.moldcell.md,8159,4539,17,17,2026-09-18T22:28:03.858+03:00,2026-09-18T22:28:09.186+03:00
+6,10.215.173.1,42542,79.170.225.145,443,10390,my moldcell,md.moldcell.selfservice,HTTPS,Закрыто,evam-sdk-lsnr.moldcell.md,3407,2067,11,10,2026-09-18T22:28:03.861+03:00,2026-09-18T22:28:15.755+03:00
+6,10.215.173.1,34652,79.170.225.178,443,10390,my moldcell,md.moldcell.selfservice,HTTPS,Закрыто,mymoldcell-api.moldcell.md,1707,6993,15,15,2026-09-18T22:28:03.867+03:00,2026-09-18T22:28:15.756+03:00
+6,10.215.173.1,34656,79.170.225.178,443,10390,my moldcell,md.moldcell.selfservice,HTTPS,Закрыто,mymoldcell-api.moldcell.md,3751,155790,37,64,2026-09-18T22:28:03.955+03:00,2026-09-18T22:28:15.757+03:00
+17,10.215.173.1,40862,10.215.173.2,53,10390,my moldcell,md.moldcell.selfservice,DNS,Закрыто,firebaseremoteconfig.googleapis.com,81,209,1,1,2026-09-18T22:28:03.961+03:00,2026-09-18T22:28:03.969+03:00
+6,10.215.173.1,34682,172.217.118.4,443,10390,my moldcell,md.moldcell.selfservice,HTTPS,Ошибка,firebaseremoteconfig.googleapis.com,2809,1862,10,8,2026-09-18T22:28:03.973+03:00,2026-09-18T22:28:09.194+03:00
+6,10.215.173.1,60630,79.170.225.145,443,10390,my moldcell,md.moldcell.selfservice,HTTPS,Закрыто,evam-sdk-lsnr.moldcell.md,2189,1439,9,8,2026-09-18T22:28:08.507+03:00,2026-09-18T22:28:15.757+03:00
+6,10.215.173.1,60640,79.170.225.145,443,10390,my moldcell,md.moldcell.selfservice,HTTPS,Закрыто,evam-sdk-lsnr.moldcell.md,2202,1439,9,8,2026-09-18T22:28:08.513+03:00,2026-09-18T22:28:15.757+03:00
+17,10.215.173.1,43568,10.215.173.2,53,10331,PCAPdroid,com.emanuelef.remote_capture,DNS,Закрыто,firebaselogging.googleapis.com,76,204,1,1,2026-09-18T22:28:34.850+03:00,2026-09-18T22:28:34.860+03:00
+6,10.215.173.1,41472,172.217.119.4,443,10331,PCAPdroid,com.emanuelef.remote_capture,HTTPS,Активно,firebaselogging.googleapis.com,2047,4645,8,7,2026-09-18T22:28:34.865+03:00,2026-09-18T22:28:35.062+03:00
+17,10.215.173.1,34291,10.215.173.2,53,6101,Темы,com.android.thememanager,DNS,Закрыто,abtest-va-sg.data.mioffice.cn,75,293,1,1,2026-09-18T22:28:37.761+03:00,2026-09-18T22:28:37.774+03:00
+6,10.215.173.1,51714,47.237.152.241,443,6101,Темы,com.android.thememanager,HTTPS,Закрыто,abtest-va-sg.data.mioffice.cn,1199,5881,9,8,2026-09-18T22:28:37.782+03:00,2026-09-18T22:28:46.687+03:00
+17,10.215.173.1,49856,10.215.173.2,53,10184,Диск,com.google.android.apps.docs,DNS,Закрыто,workspacevideo-pa.googleapis.com,78,206,1,1,2026-09-18T22:28:38.149+03:00,2026-09-18T22:28:38.160+03:00
+6,10.215.173.1,56538,172.217.115.4,443,10184,Диск,com.google.android.apps.docs,HTTPS,Закрыто,workspacevideo-pa.googleapis.com,1700,4575,14,14,2026-09-18T22:28:38.173+03:00,2026-09-18T22:28:48.864+03:00
+17,10.215.173.1,51469,10.215.173.2,53,10184,Диск,com.google.android.apps.docs,DNS,Закрыто,play.googleapis.com,65,193,1,1,2026-09-18T22:28:38.194+03:00,2026-09-18T22:28:38.203+03:00
+6,10.215.173.1,57046,172.217.113.4,443,10184,Диск,com.google.android.apps.docs,HTTPS,Закрыто,play.googleapis.com,17215,4951,16,15,2026-09-18T22:28:38.209+03:00,2026-09-18T22:28:48.863+03:00
+17,10.215.173.1,39192,10.215.173.2,53,6101,Темы,com.android.thememanager,DNS,Закрыто,cdn-exp-sg-recommend.pt.xiaomi.com,80,315,1,1,2026-09-18T22:28:38.594+03:00,2026-09-18T22:28:38.602+03:00
+6,10.215.173.1,41262,212.0.222.202,443,6101,Темы,com.android.thememanager,HTTPS,Закрыто,cdn-exp-sg-recommend.pt.xiaomi.com,1393,9801,12,12,2026-09-18T22:28:38.608+03:00,2026-09-18T22:28:46.502+03:00
