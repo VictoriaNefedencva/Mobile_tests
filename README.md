@@ -49,6 +49,7 @@ Positive:
 3. Login button is enabled.
 
 Negative:
+
 4. Empty phone shows inline error.
 5. Empty password shows inline error.
 6. Both fields empty show both inline errors.
