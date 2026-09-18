@@ -51,7 +51,6 @@ is misleading.
    - emoji / special characters
 2. Enter any password
 3. Tap 'Login'
-4. Observe: is a login request sent, or is an inline error shown before the request?
 
 **Expected result:**
 Invalid format is rejected client-side with an inline error.
