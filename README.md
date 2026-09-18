@@ -17,6 +17,9 @@
 ### 2. Verify device is connected
     adb devices
 
+If exactly one Android device (or emulator) is connected, `device.name` in
+`config.properties` can stay empty - Appium will auto-pick it.
+
 ### 3. Run tests
     cd automation
     mvn clean test
@@ -32,12 +35,12 @@ Support/QA can change test data without editing code.
 
 ### Override via environment variables
     APPIUM_URL=http://127.0.0.1:4723
-    DEVICE_NAME=WCBA89PZNBQ4VCIN
+    DEVICE_NAME=<your-device-id>   # optional; auto-picked if empty
     APP_PACKAGE=md.moldcell.selfservice
     APP_ACTIVITY=.screens.login.LoginActivity
 
 ### Override via system properties
-    mvn clean test -Ddevice.name=ANOTHER_DEVICE
+    mvn clean test -Ddevice.name=<your-device-id>
 
 Priority: system property > env variable > config.properties > testdata.properties
 

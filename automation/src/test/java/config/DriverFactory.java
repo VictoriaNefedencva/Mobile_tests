@@ -14,10 +14,16 @@ public class DriverFactory {
             try {
                 UiAutomator2Options options = new UiAutomator2Options();
                 options.setPlatformName(ConfigReader.get("platform.name"));
-                options.setDeviceName(ConfigReader.get("device.name"));
                 options.setAutomationName(ConfigReader.get("automation.name"));
                 options.setAppPackage(ConfigReader.get("app.package"));
                 options.setAppActivity(ConfigReader.get("app.activity"));
+
+                String deviceName = ConfigReader.get("device.name");
+                if (deviceName != null && !deviceName.isEmpty()) {
+                    options.setDeviceName(deviceName);
+                }
+                // If device.name is empty, Appium picks the first connected device.
+
                 options.setNoReset(true);
                 options.setCapability("appium:forceAppLaunch", true);
                 options.setCapability("appium:shouldTerminateApp", true);
