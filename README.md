@@ -56,11 +56,14 @@ Negative:
 
 ## Locators
 
-All resource-id values in the app are defined without a package prefix.
-Appium's By.id does not match them, so XPath with @resource-id is used:
+All `resource-id` values in the app are defined without a package prefix.
+XPath `//*[@resource-id='...']` does not match Compose elements reliably
+(false negatives), so `AppiumBy.androidUIAutomator` with `UiSelector` is used:
 
-    By.xpath("//*[@resource-id='login_input']")
-    By.xpath("//*[@resource-id='login_input_error_message']")
+    AppiumBy.androidUIAutomator("new UiSelector().resourceId(\"login_input\")")
+    AppiumBy.androidUIAutomator("new UiSelector().resourceId(\"login_input_error_message\")")
+
+This is stable against Jetpack Compose UI where XPath tends to be flaky.
 
 ## Project structure
     moldcell-tests/
