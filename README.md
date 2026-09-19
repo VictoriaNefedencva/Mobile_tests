@@ -6,7 +6,7 @@
 - Maven 3.9+
 - Appium 3.4.2
 - Android SDK
-- Device: Xiaomi, Android 14 (API 34), ID: WCBA89PZNBQ4VCIN
+- Device: Xiaomi Redmi Note 12S, Android 14 (API 34)
 - App: my moldcell 1.43.1 (md.moldcell.selfservice)
 
 ## Running the automated tests
