@@ -1,6 +1,6 @@
-﻿# Summary Report - my moldcell (unauthenticated area)
+# Summary Report - my moldcell (unauthenticated area)
 
-**Device:** Xiaomi, Android 14 (API 34), ID WCBA89PZNBQ4VCIN
+**Device:** Redmi Note 12S, Android 14 (API 34)
 **App:** my moldcell, version 1.43.1 (Google Play)
 
 ## Tested
