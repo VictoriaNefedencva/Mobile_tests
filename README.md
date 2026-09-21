@@ -102,3 +102,25 @@ This is stable against Jetpack Compose UI where XPath tends to be flaky.
 - Automated tests cover only the unauthenticated part of the app (login screen).
 - No real payments or plan changes were performed.
 - Personal phone numbers are masked in reports and logs.
+
+## Incomplete items (within the 3-hour limit)
+
+- Navigation to registration screen and password recovery — marked as
+  "Not run". These are within the assignment scope but were skipped to
+  prioritize validation and network checks.
+- Screenshots on failure in `BaseTest` do not work: the `driver` field is
+  not initialized in `BaseTest` (it is declared but never assigned).
+  Discovered after submission, not fixed within the limit.
+- `@Order` / `@TestMethodOrder` is used, which makes tests order-dependent.
+  This is a known anti-pattern; it was a deliberate trade-off to guarantee
+  the login screen is ready before each test within the time limit.
+
+## How I would finish them
+
+- Replace `@Order` with a `@BeforeEach` that returns the app to the login
+  screen, making tests independent.
+- Move `driver` initialization into `BaseTest` (or pass it explicitly) so
+  `captureOnFailure` actually saves screenshots.
+- Add automated coverage for navigation to registration and password recovery.
+- Add checks for partially entered / malformed phone numbers and unstable
+  network conditions.
