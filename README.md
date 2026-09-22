@@ -124,3 +124,27 @@ This is stable against Jetpack Compose UI where XPath tends to be flaky.
 - Add automated coverage for navigation to registration and password recovery.
 - Add checks for partially entered / malformed phone numbers and unstable
   network conditions.
+
+## What was tested
+
+- App launch and login screen rendering.
+- Key elements of the login screen: title, phone/email input, password
+  input, Login button, Register button, Forgot password button.
+- Login button and Register button enabled state.
+- Inline validation: empty phone, empty password, both fields empty.
+- Error dialog on valid phone + wrong password; OK button closes it.
+- App behavior when launched offline.
+- Login attempt while offline.
+- Back navigation: app closes, fields are empty on next launch.
+- One accessibility check: TalkBack reads button and field labels.
+
+## What was not tested (out of scope / not reached)
+
+- Navigation to registration screen.
+- Navigation to password recovery.
+- Partially entered or malformed phone numbers (too short, letters,
+  incomplete email, special characters).
+- Unstable / slow network conditions (only full offline was checked).
+- Authorized part of the app (balance, tariffs, payments) — not required
+  and explicitly out of scope per the assignment.
+- Real payments, plan changes, paid services — prohibited by the assignment.
